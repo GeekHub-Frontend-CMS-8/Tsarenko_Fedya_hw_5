@@ -1,0 +1,268 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+.logo{
+    max-width: 100%;
+    background-color: #f6f9f9;
+    text-align: left;
+}
+header{
+    background-image: url("../img/image.png");
+    background-size: cover;
+    text-align: center;
+}
+.design{
+    max-width: 100%;
+    background-color: #f6f9f9;
+    text-align: center;
+}
+.icons{
+    max-width: 100%;
+    background-color: #fff;
+}.work{
+     max-width: 100%;
+     background-color: #f6f9f9;;
+     text-align: center;
+ }
+ .form{
+     background-image: url("../img/BG.png");
+     background-size: 100% 100%;
+     text-align: center;
+ }
+ footer{
+     max-width: 100%;
+     background-color: #f6f9f9;
+ }
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.logo-img{
+    display: inline-block;
+    padding: 34px 16px;
+    margin-left: 43px;
+}
+.logo-paragraph{
+    vertical-align: top;
+    padding: 39px 0;
+    display: inline-block;
+    color: #2d3950;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-h1{
+    padding: 217px 0 42px 0px;
+    color: #fff;
+    font-size: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-h1::after{
+    content: '';
+    display: block;
+    margin: 34px 290px 0;
+    height: 2px;
+    background-color: #15a4fa;
+}
+.header-paragraph{
+    padding-bottom: 65px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.header-button{
+    height: 54px;
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header-button:hover{
+    background-color: #15a4fa;
+    transition: 0.5s;
+}
+.header-btn-span{
+    padding: 20px 34px;
+}
+.header-arrow{
+    display: block;
+    margin: 0 auto;
+    padding: 179px 0 90px;
+}
+.title-h2{
+    padding: 81px 0 31px;
+    color: #2d3950;
+    font-size: 40px;
+    font-weight: 400;
+}
+.design-paragraph{
+    padding-bottom: 110px;
+    color: #999999;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.icons-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 65px 0;
+}
+.icons-element{
+    text-align: center;
+    padding: 0 50px;
+}
+.icons-h3{
+    padding: 32px 0 22px;
+    color: #2d3950;
+    font-size: 22px;
+    font-weight: 400;
+}
+.icons-paragraph{
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.work-paragraph{
+    color: #909090;
+    font-size: 15px;
+    font-weight: 400;
+}
+.work-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px 0 116px;
+}
+.work-element{
+    position: relative;
+    margin-top: 30px;
+}
+.hover-element{
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    transform: translate(0, -100%);
+}
+.hover-icon1,
+.hover-icon2{
+    position: absolute;
+    display: inline-block;
+    top: 44%;
+}
+.hover-icon1:hover,
+.hover-icon2:hover{
+    background-color: #15a4fa;
+}
+.hover-icon1 {
+    transform: translate(-130%, 0);
+}
+ .hover-element:hover{
+    opacity: 1;
+    transition: 1s ease;
+}
+.form-h2{
+    padding: 74px 0 21px;
+    color: #fff;
+    font-size: 41px;
+    font-weight: 400;
+}
+.form-paragraph{
+    padding-bottom: 30px;
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+}
+.form-info{
+    max-width: 553px;
+    width: 100%;
+    padding: 25px 0 25px 20px;
+    margin-top: 22px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.form-message{
+    max-width: 553px;
+    width: 100%;
+    padding: 25px 0 0 20px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    resize: none;
+    background-color: transparent;
+    border: 1px solid #999;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.form-message:hover,
+input:hover{
+    border: 1px solid #fff;
+    transition: 0,8s;
+}
+.form-message:hover::-webkit-input-placeholder,
+input:hover::-webkit-input-placeholder {
+    color: #fff;
+    transition: 0,8s;
+}
+.checkbox-label{
+    padding: 0 254px 0 16px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+.form-checkbox{
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    border: 1px solid #9aa1ab;
+    background-color: #99a0a9;
+}
+.form-btn{
+    padding: 16px 50px;
+    margin-bottom: 111px;
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.form-btn:hover{
+    border: 1px solid #15a4fa;
+    background-color: #15a4fa;
+    transition: 0.5s;
+}
+.footer-paragraph{
+    margin-right: auto;
+    padding: 38px 0;
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer-container{
+    position: relative;
+    display: flex;
+    position: relative;
+    padding: 0 15px;
+}
+.footer-elements{
+    align-self: center;
+    padding: 0 2px;
+}
+.footer-multicolor{
+    position: absolute;
+    opacity: 0;
+    transform: translate(0, -100%);
+}
+.footer-multicolor:hover{
+    opacity: 1;
+}
+
+
+
