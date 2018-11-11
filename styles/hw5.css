@@ -248,7 +248,6 @@ input:hover::-webkit-input-placeholder {
 .footer-container{
     position: relative;
     display: flex;
-    position: relative;
     padding: 0 15px;
 }
 .footer-elements{
