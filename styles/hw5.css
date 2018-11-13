@@ -150,6 +150,10 @@ header{
     opacity: 0;
     transform: translate(0, -100%);
 }
+.work-element-img, .work-element-hober{
+    max-width: 360px;
+    width: 100%;
+}
 .hover-icon1,
 .hover-icon2{
     position: absolute;
