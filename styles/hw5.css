@@ -110,6 +110,7 @@ header{
 .icons-container{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 65px 0;
 }
 .icons-element{
